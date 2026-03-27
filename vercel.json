@@ -4,9 +4,5 @@
   "devCommand": "npm run dev",
   "cleanUrls": true,
   "framework": "vite",
-  "installCommand": "npm ci --legacy-peer-deps",
-  "env": {
-    "VITE_API_BASE_URL": "@vite_api_base_url",
-    "NODE_ENV": "production"
-  }
+  "installCommand": "npm ci --legacy-peer-deps"
 }
