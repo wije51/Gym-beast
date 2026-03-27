@@ -1,0 +1,17 @@
+* text=auto
+*.js text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+
+# Ensure shell scripts and binaries have proper line endings
+*.sh text eol=lf
+*.bash text eol=lf
