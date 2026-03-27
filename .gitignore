@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build
+dist/
+dist-ssr/
+*.local
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor
+.editorconfig
+
+# OS
+Thumbs.db
+.cache/
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+~*
+
+# Security
+.ssh/
+*.pem
+*.key
+
+# Uploads (if implemented)
+uploads/
+public/uploads/
+
+# Coverage
+coverage/
+.nyc_output/
